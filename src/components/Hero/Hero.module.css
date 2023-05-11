@@ -1,0 +1,17 @@
+
+.paragraph {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 60px;
+}
+
+.content {
+    color: var(--font-color);
+    background-color: var(--background-color);
+    min-height: 70%;
+    margin-top: 92px;
+}

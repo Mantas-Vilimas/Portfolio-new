@@ -1,0 +1,13 @@
+.inputContainer {
+    color: var(--font-color);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.input {
+    padding: 10px;
+    border: var(--card-border);
+    border-radius: var( --border-radius);
+}

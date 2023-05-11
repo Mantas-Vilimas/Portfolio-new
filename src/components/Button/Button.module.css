@@ -1,0 +1,44 @@
+.button {
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    border-radius: 50px;
+    padding: 12px;
+    font-weight: bold;
+    font-size: var(--font-desktop);
+    cursor:pointer;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+
+.link {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 15px 0;
+}
+
+.light {
+    color: var(--background-color);
+}
+
+
+.button:hover .link {
+    color: var(--background-color);
+}
+
+.light .link {
+    color: var(--background-color)
+}
+
+.dark .link {
+    color: var(--font-color);;
+}
+
+@media only screen and (max-width: 769px) {
+    .button {
+        font-size: var(--font-mobile);
+    }
+}

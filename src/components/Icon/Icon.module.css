@@ -1,0 +1,19 @@
+.icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    background-color: var(--font-color)
+}
+
+.close {
+    mask: url(../../../public/icons/x-solid.svg) no-repeat / contain ;
+    -webkit-mask: url(../../../public/icons/x-solid.svg) no-repeat center / contain ; 
+}
+
+.bars {
+    mask: url(../../../public/icons/bars-solid.svg) no-repeat / contain ;
+    -webkit-mask: url(../../../public/icons/bars-solid.svg) no-repeat center / contain ; 
+}

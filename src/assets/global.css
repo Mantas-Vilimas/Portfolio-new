@@ -1,0 +1,34 @@
+:root {
+    --secondary-color: #6ed3cf;
+    --primary-color: #9068be;
+    --tasty-eighties-grey: #e2eaf2;
+    --font-color: #0d1019; 
+    --background-color: #fafafa;
+    --card-color: rgb(20, 28, 58);
+    --card-border: 1px solid var(--tasty-eighties-grey);
+    --font-desktop: 1rem;
+    --font-mobile: 1.5rem;
+    --border-radius: 8px;
+    }
+    
+    [data-theme="dark"] {
+        --primary-color: #6ed3cf;
+        --secondary-color: #9068be;
+        --tasty-eighties-grey: #e2eaf2;
+        --background-color: #0d1019;
+        --font-color: #fafafa;
+        --card-color: #e2eaf2;
+        --card-border: 1px solid var(--tasty-eighties-grey);;
+    }
+
+
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Sofia Sans', sans-serif;
+    }
+    
+    body {
+        background-color: var(--background-color);
+    }

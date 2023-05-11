@@ -1,0 +1,131 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--background-color);
+    max-height: 600px;
+    min-width: 320px;
+    width: calc(100% / 3 - calc(20px / 3));
+    text-align: center;
+    padding: 70px 45px;
+    box-shadow: 0 5px 5px 0 rgb(233 240 243 / 50%), 0 0 0 1px #e6ecf8;
+}
+
+.container {
+    position: relative;
+    margin-top: -12rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 50;
+}
+
+.text {
+    color: var(--font-color); 
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card h3 {
+    color: var(--primary-color);
+}
+
+.card p, .card li {
+    color: var(--font-color);
+}
+
+.design {
+    border-left: var(--card-border);
+    border-top: var(--card-border);
+    border-bottom: var(--card-border);
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.developer {
+    border-left: var(--card-border);
+    border-right: var(--card-border);
+    border-top: var(--card-border);
+    border-bottom: var(--card-border);
+
+}
+
+.personal {
+    border-right: var(--card-border);
+    border-top: var(--card-border);
+    border-bottom: var(--card-border);
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+
+}
+
+.design .logo {
+    background-image: url(../../../public/icons/design-light.svg);
+    width: 100%;
+    min-height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.developer .logo {
+    background-image: url(../../../public/icons/developer-light.svg);
+    width: 100%;
+    min-height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.personal .logo {
+    background-image: url(../../../public/icons/personal-light.svg);
+    width: 100%;
+    min-height: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.heading {
+    color: var(--font-color);
+}
+
+@media screen and (min-width: 320px) {
+    .card {
+        min-width: 100%;
+        flex: 1;
+    }
+
+    .design {
+        border-radius: var(--border-radius) var(--border-radius) 0 0;
+        border-right: var(--card-border);
+    }
+
+    .personal {
+        border-radius: 0 0 var(--border-radius) var(--border-radius);
+        border-left: var(--card-border);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: calc(100% / 3 - calc(20px / 3));
+        min-width: 220px;
+    }
+
+    .design {
+        border-radius: var(--border-radius) 0 0 var(--border-radius) ;
+        border-right: none;
+    }
+    .developer {
+        border-left: var(--card-border);
+        border-right: var(--card-border);
+    }
+
+    .personal {
+        border-radius: 0 var(--border-radius) var(--border-radius) 0;
+        border-left: none;
+    }
+}
