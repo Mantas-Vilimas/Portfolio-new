@@ -11,3 +11,8 @@
     border: var(--card-border);
     border-radius: var( --border-radius);
 }
+
+.message {
+    font-size: 10px;
+    color: red;
+}

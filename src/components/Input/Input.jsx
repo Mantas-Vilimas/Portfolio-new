@@ -26,7 +26,11 @@ const Input = ({
         placeholder={placeholder}
         disabled={disabled}
       />
-
+      {errors[name] ? (
+        <span className={styles.message}>{errors[name].message}</span>
+      ) : (
+        <></>
+      )}
       
     </div>
   );

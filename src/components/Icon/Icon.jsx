@@ -1,7 +1,7 @@
 import styles from "./Icon.module.css";
 
 const Icon = ({ image }) => {
-  return <img className={`${styles.icon} ${styles[image]}`} alt="icon" />;
+  return <div className={`${styles.icon} ${styles[image]}`}> </div>;
 };
 
 export default Icon;
