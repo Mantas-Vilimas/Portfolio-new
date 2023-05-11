@@ -3,7 +3,6 @@ import Layout from "../../composition/Layout/Layout"
 import styles from "./Footer.module.css"
 import {routes} from "../../constants/routes"
 import {HashLink} from "react-router-hash-link"
-import Button from "../Button/Button"
 
 const Footer = () => {
     return <footer className={styles.footer}>
