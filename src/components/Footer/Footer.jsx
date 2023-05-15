@@ -32,7 +32,7 @@ const Footer = () => {
             </li>
           </ul>
 
-          <p className="copyright">Handcrafted by me &copy; twentytwotwentythree</p>
+          <p className={styles.copyright}>Handcrafted by me &copy; twentytwotwentythree</p>
         </div>
         </Layout>
        

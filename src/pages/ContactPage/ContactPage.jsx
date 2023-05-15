@@ -80,8 +80,8 @@ const ContactPage = () => {
           <div className={styles.image}>
             {themeGlobal === "dark" ? <DarkImage /> : <LightImage />}
           </div>
-          {success && <h4>Thank you for your message</h4>}
-          <h4 className={styles.success}>Thank you for your message!</h4>
+          {success && <h4 className={styles.success}>Thank you for your message</h4>}
+          
           <form
             ref={form}
             className={styles.form}
