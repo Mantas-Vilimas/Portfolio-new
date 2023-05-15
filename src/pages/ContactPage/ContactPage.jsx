@@ -46,15 +46,14 @@ const ContactPage = () => {
           "TQLXOo4m0E__qEpQH"
         )
         .then(
-          (result) => {
-            console.log(result.text);
+          () => {
+            setSuccess("Thank you for your message!");
+            reset();
           },
           (error) => {
             console.log(error.text);
           }
         );
-      setSuccess("Thank you for your message");
-      reset();
     }
   };
 
@@ -63,12 +62,16 @@ const ContactPage = () => {
       return;
     }
 
-    const clearSucces = () => {
+    const clearSuccess = () => {
       setSuccess("");
     };
 
-    setTimeout(clearSucces, 10 * 500);
+    setTimeout(clearSuccess, 10 * 500);
   }, [success]);
+
+  useEffect(() => {
+    window.scrollTo(0, 10);
+  }, []);
 
   return (
     <div>
@@ -80,8 +83,10 @@ const ContactPage = () => {
           <div className={styles.image}>
             {themeGlobal === "dark" ? <DarkImage /> : <LightImage />}
           </div>
-          {success && <h4 className={styles.success}>Thank you for your message</h4>}
-          
+          {success && (
+            <h4 className={styles.success}>Thank you for your message</h4>
+          )}
+
           <form
             ref={form}
             className={styles.form}

@@ -29,6 +29,10 @@
     color: var(--background-color);
 }
 
+.dark {
+    color: var(--secondary-font-color);
+}
+
 .light .link {
     color: var(--background-color)
 }

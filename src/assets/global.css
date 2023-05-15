@@ -4,6 +4,7 @@
     --tasty-eighties-grey: #e2eaf2;
     --font-color: #0d1019; 
     --background-color: #fafafa;
+    --secondary-font-color: #0d1019;
     --card-color: rgb(20, 28, 58);
     --card-border: 1px solid var(--tasty-eighties-grey);
     --font-desktop: 1rem;
@@ -16,6 +17,7 @@
         --secondary-color: #9068be;
         --tasty-eighties-grey: #e2eaf2;
         --background-color: #0d1019;
+        --secondary-font-color: #fafafa;
         --font-color: #fafafa;
         --card-color: #e2eaf2;
         --card-border: 1px solid var(--tasty-eighties-grey);;

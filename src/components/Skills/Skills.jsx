@@ -63,7 +63,7 @@ const Skills = () => {
               <p>Seeking for knowledge</p>
             </div>
             <div>
-              <h3>Some personal preferences</h3>
+              <h3>Personal preferences</h3>
               <ul>
                 <li>Problem solving</li>
                 <li>Team work</li>
