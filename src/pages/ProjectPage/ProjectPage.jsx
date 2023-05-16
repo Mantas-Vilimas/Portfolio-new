@@ -5,7 +5,6 @@ import Layout from "../../composition/Layout/Layout";
 import { useEffect } from "react";
 import Button from "../../components/Button/Button";
 import CallToAction from "../../components/CallToAction/CallToAction";
-import Video from "../../components/Video/Video";
 
 const randomNumber = () => {
   const number = Math.ceil(Math.random() * 1000);
