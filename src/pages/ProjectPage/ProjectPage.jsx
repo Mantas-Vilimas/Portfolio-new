@@ -5,6 +5,7 @@ import Layout from "../../composition/Layout/Layout";
 import { useEffect } from "react";
 import Button from "../../components/Button/Button";
 import CallToAction from "../../components/CallToAction/CallToAction";
+import Video from "../../components/Video/Video";
 
 const randomNumber = () => {
   const number = Math.ceil(Math.random() * 1000);
@@ -26,13 +27,14 @@ const ProjectPage = () => {
       <div>
         <img className={styles.image} src={project.image} alt={project.label} />
       </div>
+
       <Layout>
         <div className={styles.content}>
           <h3 className={styles.heading}>{project.label}</h3>
 
           <div className={styles.description}>{project.description}</div>
 
-          <div className={styles.videoContainer}><video className={styles.video} src={project.video} controls="controls" autoPlay loop /></div>
+          <div className={styles.videoContainer}><video className={styles.video} src={project.video} controls="controls" loop /></div>
 
           <h4 className={styles.subheading}>Tools used</h4>
 

@@ -4,12 +4,23 @@
     --tasty-eighties-grey: #e2eaf2;
     --font-color: #0d1019; 
     --background-color: #fafafa;
+    --error-color: #ff3333;
     --secondary-font-color: #0d1019;
     --card-color: rgb(20, 28, 58);
     --card-border: 1px solid var(--tasty-eighties-grey);
-    --font-desktop: 1rem;
-    --font-mobile: 1.5rem;
     --border-radius: 8px;
+
+    --font-size-mobile-s: 1.5rem;
+    --font-size-mobile-m: 2rem;
+
+
+    --font-size-xs: 0.5rem;
+    --font-size-s: 1rem;
+    --font-size-m: 2rem;
+    --font-size-l: 3rem;
+    --font-size-xl: 4rem;
+
+
     }
     
     [data-theme="dark"] {
@@ -29,6 +40,10 @@
         margin: 0;
         padding: 0;
         font-family: 'Sofia Sans', sans-serif;
+    }
+
+    html, body {
+        scroll-behavior: smooth;
     }
     
     body {

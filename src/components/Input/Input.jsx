@@ -29,7 +29,7 @@ const Input = ({
       {errors[name] ? (
         <span className={styles.message}>{errors[name].message}</span>
       ) : (
-        <></>
+        <span className={styles.message}>{""}</span>
       )}
       
     </div>

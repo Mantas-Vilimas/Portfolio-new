@@ -8,8 +8,9 @@
 }
 
 .message {
-    color: red;
-    font-size: 10px;
+    height: 18px;
+    color: var(--error-color);
+    font-size: 0.625rem;
 }
 
 .label {
@@ -53,6 +54,10 @@
     border-radius: 8px;
 }
 
+.text:focus {
+    outline: 1px solid var(--primary-color) ;
+}
+
 .second {
    width: 100%;
    display: flex;
@@ -69,13 +74,13 @@
 .heading {
     margin-top: 50px;
     color: var(--font-color);
-    font-size: 32px;
+    font-size: 2rem;
     text-align: center;
 }
 
 .success {
     color: var(--font-color);
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 320px) {

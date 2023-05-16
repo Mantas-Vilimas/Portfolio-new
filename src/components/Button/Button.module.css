@@ -4,7 +4,7 @@
     border-radius: 50px;
     padding: 12px;
     font-weight: bold;
-    font-size: var(--font-desktop);
+    font-size: 1rem;
     cursor:pointer;
 }
 
@@ -43,6 +43,6 @@
 
 @media only screen and (max-width: 769px) {
     .button {
-        font-size: var(--font-mobile);
+        font-size: 1.5rem;
     }
 }

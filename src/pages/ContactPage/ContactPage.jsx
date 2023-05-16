@@ -131,7 +131,7 @@ const ContactPage = () => {
                     {errors["message"].message}
                   </span>
                 ) : (
-                  <></>
+                  <span className={styles.message}>{""}</span>
                 )}
               </div>
             </div>

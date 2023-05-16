@@ -14,7 +14,7 @@ import projectWebp6 from "../assets/projectImages/webp/project6.webp"
 
 
 
-import video1 from "../assets/projectsVideos/web-video.webm"
+import video1 from "../assets/projectsVideos/web-video.mp4"
 
 export const projectsList = [
   {

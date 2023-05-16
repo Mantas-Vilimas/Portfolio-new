@@ -1,0 +1,22 @@
+.videoContainer {
+    position: relative;
+}
+
+.video {
+    position: relative;
+    z-index: 2;
+    border-radius: var(--border-radius);
+}
+
+.videoContainer::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: var(--border-radius);
+    left: 15px;
+    top: -15px;
+    background-color: var(--primary-color);
+    z-index: 1;
+    transition: all 200ms ease-in;
+}

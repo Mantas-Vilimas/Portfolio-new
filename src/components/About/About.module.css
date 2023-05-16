@@ -17,11 +17,11 @@
 }
 
 .heading {
-    font-size: 44px;
+    font-size: 2.75rem;
 }
 
 .paragraph {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 320px) {

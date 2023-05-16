@@ -12,7 +12,12 @@
     border-radius: var( --border-radius);
 }
 
+.input:focus {
+    outline: 1px solid var(--primary-color) ;
+}
+
 .message {
-    font-size: 10px;
-    color: red;
+    height: 18px;
+    font-size: 0.625rem;
+    color: var(--error-color)
 }
